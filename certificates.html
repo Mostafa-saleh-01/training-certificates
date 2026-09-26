@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Certificates</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="navbar">
+
+    <div class="container nav-content">
+
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="Logo">
+            <span>Training Center</span>
+        </a>
+
+        <nav>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="certificates.html" class="active">
+                Certificates
+            </a>
+
+            <a href="resources.html">
+                Resources
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main>
+
+<section class="page-header">
+
+    <div class="container">
+
+        <span>
+            Certification
+        </span>
+
+        <h1>
+            Certificates
+        </h1>
+
+        <p>
+            Search for your certificate using your name
+            or certificate ID.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="certificate-section">
+
+    <div class="container">
+
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="certificateSearch"
+                placeholder="Search by name or certificate ID..."
+            >
+
+        </div>
+
+
+        <div
+            id="certificateGrid"
+            class="certificate-grid"
+        >
+
+        </div>
+
+
+        <div
+            id="noResults"
+            class="no-results"
+            style="display:none;"
+        >
+
+            <h3>
+                No certificate found
+            </h3>
+
+            <p>
+                Check the name or certificate ID and try again.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <div class="container footer-content">
+
+        <p>
+            © 2026 Training Center
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="certificates.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
