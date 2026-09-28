@@ -19,7 +19,7 @@ const certificates = [
 
     {
         id: "CERT-2026-004",
-        name: "Tath",
+        name: "Tatah",
         course: "Gomhoria newspapers",
         date: "October 2026",
         image: "certificates/certificate-004.jpg"
