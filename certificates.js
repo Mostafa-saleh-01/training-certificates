@@ -1,12 +1,5 @@
 const certificates = [
 
-    {
-        id: "CERT-2026-001",
-        name: "Ahmed Mohamed",
-        course: "First Aid Training",
-        date: "September 2026",
-        image: "certificates/certificate-001.jpg"
-    },
 
     {
         id: "CERT-2026-002",
