@@ -23,5 +23,13 @@ const certificates = [
         course: "Gomhoria newspapers",
         date: "October 2026",
         image: "certificates/certificate-004.jpg"
+    },
+
+    {
+        id: "CERT-2026-005",
+        name: "Abd Elwahhab",
+        course: "El-Wekala",
+        date: "October 2026",
+        image: "certificates/certificate-005.jpg"
     }
 ];
